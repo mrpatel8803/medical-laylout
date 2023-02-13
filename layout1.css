@@ -1,24 +1,43 @@
 
 
-.main_image{
-    padding-left: 10%;
-    padding-top: 5%;
-    border: 2px solid transparent;
-  border-radius: 25px;
-
+.main_image img{
+    border-radius: 0px 0px 100px 100px;
 }
+
+.main_image{
+    padding-left: 0%;
+    padding-top: 2%;
+}
+
 
  h2{
     position: absolute;
     color: blue;
-    top: 10%;
-    left: 48%;
+    top: 5%;
+    left: 46%;
 }
 
 h1{
     position: absolute;
-    /* color: white; */
-    top: 100%;
-    left: 45%;
+     color: white; 
+    top: 105%;
+    left: 35%;
+    font-size: 51;
+    background-color: blue ;
+    width: 460px;
+    border-radius: 100px 0px 100px 0px;
+}
 
+
+h3{
+    position: relative;
+    font-size: x-large;
+    left: 36%;
+    width: 377px;
+    top: 10;
+
+    font-size: 27;
+    background-color: aqua;
+     border-radius: 0px 0px 0px 0px; 
+    color: white;
 }
