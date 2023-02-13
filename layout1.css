@@ -12,7 +12,7 @@
 
  h2{
     position: absolute;
-    color: blue;
+    color: mediumblue;
     top: 5%;
     left: 46%;
 }
@@ -20,24 +20,46 @@
 h1{
     position: absolute;
      color: white; 
-    top: 105%;
-    left: 35%;
-    font-size: 51;
-    background-color: blue ;
-    width: 460px;
+    top: 100%;
+    left: 30%;
+    font-size: 50px;
+    background-image: linear-gradient(rgb(0, 172, 240),rgb(32, 95, 167));
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+
     border-radius: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+
 }
 
 
 h3{
     position: relative;
     font-size: x-large;
-    left: 36%;
-    width: 377px;
+    left: 35%;
+    top: 580px;
+    width: 450px;
     top: 10;
-
-    font-size: 27;
-    background-color: aqua;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    padding-top: 0px;
+    font-size: 30px;
+    background-color: rgb(76, 202, 192);
      border-radius: 0px 0px 0px 0px; 
     color: white;
 }
+/* 
+.logo_image{
+    position: relative;
+    width: 100px;
+} */
+
+h4{
+    padding-left: 5%;
+    color: gray;
+}
+
