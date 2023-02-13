@@ -1,0 +1,24 @@
+
+
+.main_image{
+    padding-left: 10%;
+    padding-top: 5%;
+    border: 2px solid transparent;
+  border-radius: 25px;
+
+}
+
+ h2{
+    position: absolute;
+    color: blue;
+    top: 10%;
+    left: 48%;
+}
+
+h1{
+    position: absolute;
+    /* color: white; */
+    top: 100%;
+    left: 45%;
+
+}
