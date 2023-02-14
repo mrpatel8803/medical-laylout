@@ -40,7 +40,7 @@ h3{
     position: relative;
     font-size: x-large;
     left: 35%;
-    top: 580px;
+    top: ;
     width: 450px;
     top: 10;
     display: flex;
@@ -63,3 +63,38 @@ h4{
     color: gray;
 }
 
+
+.paragraph{
+    color: aqua;
+    width: 496px;
+    padding-left: 5%;
+    margin: 0%;
+}
+ 
+.image_child{
+    position: relative;
+    padding-left: 80%;
+    border-radius: 0px 0px 100px 0px;
+    top: 80%;
+    margin: 0%;
+    
+} 
+p{
+    padding: 0%;
+}
+
+hr{
+    padding-right: 10%;
+    padding-left: 0%;
+}
+
+.contain_1{
+    color: blue;
+    padding-left: 20%;
+    font-size: x-large;
+}
+
+.text_6{
+    color: blue;
+    padding-left: 5%;
+}
