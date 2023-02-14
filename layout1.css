@@ -52,11 +52,7 @@ h3{
      border-radius: 0px 0px 0px 0px; 
     color: white;
 }
-/* 
-.logo_image{
-    position: relative;
-    width: 100px;
-} */
+
 
 h4{
     padding-left: 5%;
@@ -71,12 +67,12 @@ h4{
     margin: 0%;
 }
   
-.image_child{
+.image_child img{
      position: relative; 
      padding-left: 80%; 
      box-sizing: border-box;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 30px 0px 30px 0px;
+   
     top: 80%;
     margin: 0%; 
     
@@ -90,7 +86,7 @@ p{
 .new_text{
     /* padding-left: 83%; */
     font-size: xx-large;
-    background-color: lightblue;
+    background-color:  blue;
     color: white;
     width: 247px;
     margin-left: 1212px;
@@ -110,7 +106,7 @@ P4{
 
 P5{
     color: blue;
-    padding-left: 23%;
+    padding-left: 25%;
     font-size: x-large;
 }
 
@@ -119,38 +115,27 @@ P5{
     padding-left: 5%;
 }
 
-/* .text_right_1{
-    padding-left: 90%;
-}
-
-.text_right_2{
-    padding-left: 85%;
-    width: 233px;
-}
-
-.text_right_3{
-    padding-left: 90%;
-}
-
-.text_right_4{
-    padding-left: 85%;
-    width: 233px;
-}
-
-.text_right_5{
-    padding-left: 90%;
-}
-
-.text_right_6{
-    padding-left: 85%;
-    width: 233px;
-}    */
+    
 
 .right_text{
     background-color: aqua;
     border: 2px solid aqua;
-    height: 170px;
-    width: 400px;
+    height: 561px;
+    width: 301px;
     color: white;
     text-align: right;
+    margin-left: 1157px;
+    margin-top: -72px;
+}
+
+ 
+.logo_image{
+    position: relative;
+    margin-top: -10%;
+} 
+
+.main_logo{
+    display: flex;
+    justify-content: space-around;
+    
 }
