@@ -70,17 +70,31 @@ h4{
     padding-left: 5%;
     margin: 0%;
 }
- 
+  
 .image_child{
-    position: relative;
-    padding-left: 80%;
-    border-radius: 0px 0px 100px 0px;
+     position: relative; 
+     padding-left: 80%; 
+     box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     top: 80%;
-    margin: 0%;
+    margin: 0%; 
     
 } 
 p{
-    padding: 0%;
+    position: absolute;
+    /* height: 57px; */
+    width: 478px;
+}
+
+.new_text{
+    /* padding-left: 83%; */
+    font-size: xx-large;
+    background-color: lightblue;
+    color: white;
+    width: 247px;
+    margin-left: 1212px;
+    border-radius: 100px 0px 0px 0px;
 }
 
 hr{
@@ -88,13 +102,55 @@ hr{
     padding-left: 0%;
 }
 
-.contain_1{
+P4{
     color: blue;
     padding-left: 20%;
+    font-size: x-large;
+}
+
+P5{
+    color: blue;
+    padding-left: 23%;
     font-size: x-large;
 }
 
 .text_6{
     color: blue;
     padding-left: 5%;
+}
+
+/* .text_right_1{
+    padding-left: 90%;
+}
+
+.text_right_2{
+    padding-left: 85%;
+    width: 233px;
+}
+
+.text_right_3{
+    padding-left: 90%;
+}
+
+.text_right_4{
+    padding-left: 85%;
+    width: 233px;
+}
+
+.text_right_5{
+    padding-left: 90%;
+}
+
+.text_right_6{
+    padding-left: 85%;
+    width: 233px;
+}    */
+
+.right_text{
+    background-color: aqua;
+    border: 2px solid aqua;
+    height: 170px;
+    width: 400px;
+    color: white;
+    text-align: right;
 }
