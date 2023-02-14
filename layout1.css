@@ -137,5 +137,9 @@ P5{
 .main_logo{
     display: flex;
     justify-content: space-around;
-    
+
+}
+
+p11{
+        color: blue;
 }
